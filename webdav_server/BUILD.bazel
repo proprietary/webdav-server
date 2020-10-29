@@ -1,0 +1,9 @@
+cc_binary(
+    name = "webdav_server",
+    srcs = [
+        "main.cc",
+    ],
+    deps = [
+        "@com_github_zeux_pugixml//:pugixml",
+    ],
+)
